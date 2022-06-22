@@ -39,4 +39,15 @@ public class Member {
         Man,
         Woman
     }
+
+    public Member setMember(String name, Short age, Gender gender, String position, String img, Artist artist) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.position = position;
+        this.img = img;
+        this.artist = artist;
+
+        return this;
+    }
 }
